@@ -1,7 +1,7 @@
 {
   "name": "frontend-01-template",
   "version": "1.0.0",
-  "description": "请大家通过该链接查看讲师课件并进行下载，链接: https://pan.baidu.com/s/1JFtYmCg2aGRcMAnCnqZRbw 密码:xanj",
+  "description": "前端训练营",
   "main": "index.js",
   "scripts": {
     "test": "jest"
