@@ -1,0 +1,124 @@
+{
+  "editor.tabSize": 2,
+  "files.associations": {
+    "*.vue": "vue",
+    "*.cml": "html",
+    "*.wxml": "wxml"
+  },
+  "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier": {
+      "eslintIntegration": true
+  },
+  "vetur.format.defaultFormatter.js": "vscode-typescript",
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    {
+      "language": "html",
+      "autoFix": true
+    },
+    {
+      "language": "vue",
+      "autoFix": true
+    },{
+      "language": "ts",
+      "autoFix": true
+    }
+  ],
+  // jsx自动修复有问题，取消js的format
+  "editor.formatOnSave": false,
+  // Enable/disable default JavaScript formatter (For Prettier)
+  "javascript.format.enable": false,
+  "prettier.singleQuote": true,
+  "search.exclude": {
+      "**/node_modules": true,
+      "**/bower_components": true,
+      "**/dist": true
+  },
+  "emmet.syntaxProfiles": {
+      "javascript": "jsx",
+      "vue": "html",
+      "vue-html": "html"
+  },
+  "git.confirmSync": false,
+  "window.zoomLevel": 0,
+  "editor.renderWhitespace": "boundary",
+  "editor.cursorBlinking": "smooth",
+  "editor.minimap.enabled": true,
+  "editor.minimap.renderCharacters": false,
+  "editor.fontFamily": "'Droid Sans Mono', 'Courier New', monospace, 'Droid Sans Fallback'",
+  "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}",
+  "editor.codeLens": true,
+  "editor.snippetSuggestions": "top",
+  "editor.renderIndentGuides": false,
+  "editor.quickSuggestions": {
+      "strings": true
+  },
+  "eslint.autoFixOnSave": true,
+  "tslint.autoFixOnSave": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.enableSmartCommit": true,
+  "scf.python3.path": "",
+  "scf.python2.path": "",
+  "scf.deploy.cos": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+  "workbench.iconTheme": "vscode-icons",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "angularConsole.useNVM": false,
+  "workbench.colorTheme": "Soft Colors",
+  "python.jediEnabled": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "vsicons.dontShowNewVersionMessage": true,
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "prettier.requireConfig": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.wordWrap": "on",
+  // 如果useLanguageServer设为true，那么在编写代码时引入本地没有的package时，会自动下载安装
+  // 就是有时候会非常卡，保存go的编码文件时偶尔会卡死。这点你们自己取舍吧
+  "go.useLanguageServer": true,
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.enabled": false,
+  "terminal.external.osxExec": "iTerm.app",
+  "go.docsTool": "gogetdoc",
+  "go.testFlags": ["-v","-count=1"],
+  "go.buildTags": "",
+  "go.buildFlags": [],
+  "go.lintFlags": [],
+  "go.vetFlags": [],
+  "go.coverOnSave": false,
+  "go.useCodeSnippetsOnFunctionSuggest": false,
+  "go.formatTool": "goimports",
+  "go.gocodeAutoBuild": false,
+  "go.goroot": "E:\\Go",
+  "go.gopath": "E:\\go_learn",
+  "go.autocompleteUnimportedPackages": true,
+  "go.formatOnSave": true,
+  "window.zoomLevel": 0,
+  "debug.console.fontSize": 16,
+  "debug.console.lineHeight": 30,
+  "[less]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "[wxml]": {
+  
+  },
+}
