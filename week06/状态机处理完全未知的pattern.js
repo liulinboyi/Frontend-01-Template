@@ -129,9 +129,9 @@ function match(rule, target) {
               } ${
                 i + 1 === ruleArr.length - 1
                   ? `else if(c === ${`'${targetArr[ruleArr.length - 1]}'`}) {
-                  console.log('${targetArr[ruleArr.length]}')
-                  let change = findChange('${targetArr[ruleArr.length]}')
-                  console.log(change)
+                  // console.log('${targetArr[ruleArr.length]}')
+                  // let change = findChange('${targetArr[ruleArr.length]}')
+                  // console.log(change)
                   return found${
                     (function (change) {
                       // console.log(change, 'inner')
@@ -155,7 +155,7 @@ function match(rule, target) {
 
   // console.log(startfun)
 
-  var peocess = `
+  var statement = `
       function match(string) {
           let state = start;
           for(let c of string) {
@@ -169,11 +169,13 @@ function match(rule, target) {
       }
       `
 
-  // console.log(peocess) // 逻辑字符串
+  console.log(statement) // 语句
 
-  eval(peocess)
+  eval(statement)
   return match(target)
 }
+
+module.exports = match
 //                  rule   tatget
 // console.log(match('aaa', 'aa'))
 // console.log(match('ababx', 'abasbxxx'))
@@ -184,11 +186,13 @@ function match(rule, target) {
 // console.log(match('abcabx', 'abcaabcabx'))
 // console.log(match('abac', 'ababac'))
 //                            abab ac
-console.log(match('abcdef', 'aabc'))
-console.log(match('abcdef', 'abcdef'))
-console.log(match('abcabx', 'abcabcabx'))
-console.log(match('abcabx', 'abcaabcabx'))
-console.log(match('abcabce', 'abcabcabce'))
+
+// console.log(match('abcdef', 'aabc'))
+// console.log(match('abcdef', 'abcdef'))
+// console.log(match('abcabx', 'abcabcabx'))
+// console.log(match('abcabx', 'abcaabcabx'))
+// console.log(match('abcabce', 'abcabcabce'))
+
 //                            abcabca bce
 
 // console.log(match('abac', 'abaabac'))
