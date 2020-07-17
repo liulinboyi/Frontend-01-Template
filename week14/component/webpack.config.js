@@ -1,6 +1,3 @@
-webpack.config.js
-
-```
 module.exports = {
   entry: './main.js',
   module: {
@@ -27,5 +24,3 @@ module.exports = {
     minimize: false,
   },
 }
-
-```
