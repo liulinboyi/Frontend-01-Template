@@ -1,7 +1,3 @@
-vue 的 SFC单文件组件是通过loader => parser解析成js。
-
-webpack配置文件
-```
 module.exports = {
   entry: "./main.js",
   module: {
@@ -54,4 +50,3 @@ module.exports = {
     },
   },
 };
-```

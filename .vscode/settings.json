@@ -6,7 +6,7 @@
     "*.wxml": "wxml"
   },
   "[javascript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
+      "editor.defaultFormatter": "HookyQR.beautify"
   },
   "prettier": {
       "eslintIntegration": true
@@ -61,10 +61,10 @@
   "eslint.autoFixOnSave": true,
   "tslint.autoFixOnSave": true,
   "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "mblode.pretty-formatter"
   },
   "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.json-language-features"
   },
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
